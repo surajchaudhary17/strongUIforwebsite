@@ -1,0 +1,41 @@
+ #first{
+    background-color: aqua;
+    width: fit-content;
+}
+
+
+.second{
+    background-color: rgb(167, 23, 109);
+    color: #fff;
+    width: fit-content;
+    
+}
+div{
+    background-color: blueviolet;
+    width: fit-content;
+    
+}
+.third{
+    color: rgb(204, 204, 242);
+    width: max-content;
+    background-color: rgb(6, 123, 4);   
+}
+body{
+    background-color: rgb(230, 190, 105);
+}
+.cl{
+    /* what you learn till now */
+    background-color: #089b21;
+    color: #fff;   
+}
+p.red{
+    color: rgb(74, 63, 63);
+}
+h2,p.red{
+    background-color: pink;
+}
+
+ /* universal selector *  */
+*{
+  margin-left: 1cm;
+}

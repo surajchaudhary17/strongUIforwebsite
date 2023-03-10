@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Learning</title>
+    <link rel="stylesheet" href="clicksbtn.css">
+</head>
+<body>
+    <p id="para">Some text Here</p>
+    <button onclick="changeColor('blue');">Blue</button>
+    <button onclick="changeColor('white');">White</button>
+    <label for="name">Name (4 to 20 characters):</label>
+    <span>
+        <input type="text" id="name" name="name" required
+        minlength="4" maxlength="20" size="10">
+        <button id="btn" onclick="showname();">SUBMIT</button>
+    </span>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <circle
+        cx="80" cy="5" r="5"
+          onclick="alert('You have clicked the circle.')" />
+      </svg>
+
+    
+    <script src="clicksbtn.js" ></script>
+</body>
+</html>
